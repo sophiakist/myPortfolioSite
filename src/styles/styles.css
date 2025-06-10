@@ -583,7 +583,7 @@ p + p {
 }
 
 .work-images img {
-  max-width: 1000px;
+  max-width: 1250px;
   height: auto;
   border-radius: 12px;
   padding: 2rem;
@@ -614,14 +614,6 @@ p + p {
   transform: translateY(-2px) scale(1.03);
 }
 
-.atlas-page {
-  background-color: #f0f0f0;
-}
-
-.optima-page {
-  background-color: #f0f0f0;
-}
-
 h3 {
   font-size: 3rem;
   font-weight: 600;
@@ -649,10 +641,14 @@ h5 {
   text-align: center;
 }
 
-.atlas-page footer .fluid {
+.work-page {
+  background-color: #f0f0f0;
+}
+
+.work-page footer .fluid {
   color: black; /* Change to your desired color */
 }
 
-.optima-page footer .fluid {
-  color: black; /* Change to your desired color */
+.optima-page {
+  background-color: #000; /* Black background */
 }
