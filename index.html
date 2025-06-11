@@ -41,12 +41,10 @@
       <section class="work" id="work">
         <h3>My Work</h3>
         <div id="app" class="container">
-          <a href="atlas.html" class="card-link">
-            <card class="work-card">
-              <h1 slot="header">The Atlas</h1>
-              <p slot="content">iOS and Web App</p>
-            </card>
-          </a>
+          <card class="work-card" @click.native="goTo('/src/atlas.html')">
+            <h1 slot="header">The Atlas</h1>
+            <p slot="content">iOS and Web App</p>
+          </card>
           <card class="about-card" @click.native="goTo('submitty.html')">
             <h1 slot="header">Submitty</h1>
             <p slot="content">VSCode Extension</p>
